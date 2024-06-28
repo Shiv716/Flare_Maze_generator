@@ -1,0 +1,10 @@
+maze_generator/
+├──images/
+    ├──grass.png
+    ├──grass_Back.tiff
+    ├──location.png
+    ├──stop-button.png
+    └──wall.png
+├── Maze_gui.py
+├── Maze_algorithm.py
+└── README.md
