@@ -7,27 +7,21 @@
 import random
 
 
-# Functions: -
 # 1. Prints the final maze
-# 2. Initialise the maze with walls
-# 3. To verify positioning of the cell in the maze
-# 4. Important function: Working function to generate valid mazes using effective "Prim's algorithm".
-
-
 def print_maze(maze):
     for row in maze:
         print(''.join(row))
 
-
+# 2. Initialise the maze with walls
 def initialize_maze(width, height):
     maze = [['#'] * width for _ in range(height)]
     return maze
 
-
+# 3. To verify positioning of the cell in the maze
 def in_bounds(x, y, width, height):
     return 0 <= x < width and 0 <= y < height
 
-
+# 4. Important function: Working function to generate valid mazes using effective "Prim's algorithm".
 def prim_maze(width, height):
     maze = initialize_maze(width, height)
 
@@ -122,8 +116,8 @@ def prim_maze(width, height):
 # Chosen dimensions of the maze
 width, height = 21, 21
 
-# Generating the maze
-maze = prim_maze(width, height)
+# Generating the maze : Test-sample.
+#maze = prim_maze(width, height)
 
 # Print the generated maze
 # print_maze(maze)
