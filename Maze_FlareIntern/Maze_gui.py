@@ -28,7 +28,7 @@ class MazeApp(App):
         layout = FloatLayout()
 
         # Adding background image
-        background = Image(source='images/grass_Back.tiff', allow_stretch=True, keep_ratio=False)
+        background = Image(source='images/grass_Back.png', allow_stretch=True, keep_ratio=False)
         layout.add_widget(background)
 
         # Creating a grid layout for the maze
