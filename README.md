@@ -35,7 +35,8 @@ To run the application, use the following command:
  ```
 
 ## Sample Mazes
-Each new maze is generated at the click of the button in the maze.<br>
-Each location mark specifies starting and ending point in every new generated maze.
+- Each new maze is generated at the click of the button in the maze.<br>
+- Each location mark specifies starting and ending point in every new generated maze.
 
-<img src="images/Product_images/maze1.png" alt="First Window" width="500" height="300">
+<img src="Product_images/maze1.png" alt="First Window" width="450">
+<img src="Product_images/maze2.png" alt="First Window" width="450">
