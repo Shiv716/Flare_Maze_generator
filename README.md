@@ -33,3 +33,8 @@ To run the application, use the following command:
  ```
     python3 Maze_gui.py
  ```
+
+## Sample Mazes
+Each new maze is generated at the click of the button in the maze.<br>
+Each location mark specifies starting and ending point in every new generated maze.
+
